@@ -21,7 +21,7 @@ https://www.vagrantup.com/
 在命令行下执行以下命令，cmd , 其中地址为本地存储centos 镜像的地址
 
 ```
-vagrant box add centos7 E:/vagrant/Vagrant-CentOS-7.box
+vagrant box add centos7 H:/vagrant/Vagrant-CentOS-7.box
 ```
 
 查看本地 box
@@ -84,7 +84,7 @@ sudo yum install docker-ce docker-ce-cli containerd.io
 启动docker
 
 ```
-$ sudo systemctl start docker
+sudo systemctl start docker
 ```
 
 ### CentOS7 配置镜像加速
@@ -119,7 +119,7 @@ docker info
 设置docker随容器自动启动
 
 ```
-systemctl enable docekr
+systemctl enable docker
 ```
 
 ### 使用docker 安装mysql
