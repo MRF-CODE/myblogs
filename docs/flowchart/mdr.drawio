@@ -1,1 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T01:46:04.267Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" version="14.6.1" etag="HSW-rJRQ0-fsRpVrfvkF" type="github"><diagram id="IMXN8GMDb4Ydj3eBijsY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-07T03:34:19.593Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.51" etag="1HRY3P5iK2UPugPYGW78" version="14.6.1" type="github">
+  <diagram id="IMXN8GMDb4Ydj3eBijsY" name="Page-1">
+    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-8" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="570" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-9" value="Lane 1" style="swimlane;html=1;startSize=20;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-8">
+          <mxGeometry y="20" width="170" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-1" value="1.0系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-9">
+          <mxGeometry x="25" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-10" value="Lane 2" style="swimlane;html=1;startSize=20;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-8">
+          <mxGeometry x="170" y="20" width="180" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-2" value="2.0系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-10">
+          <mxGeometry x="30" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-11" value="Lane 3" style="swimlane;html=1;startSize=20;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-8">
+          <mxGeometry x="350" y="20" width="220" height="440" as="geometry">
+            <mxRectangle x="260" y="20" width="30" height="440" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OuCMYnRNAb08Vo0L_7Jf-3" value="交易所系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OuCMYnRNAb08Vo0L_7Jf-11">
+          <mxGeometry x="50" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
